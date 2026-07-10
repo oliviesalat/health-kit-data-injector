@@ -30,11 +30,3 @@ Covers HealthKit types that the Health app cannot enter manually — reproductiv
 ## Adding New Types
 
 See [CLAUDE.md](CLAUDE.md) for step-by-step instructions.
-
-## Regenerating the Xcode Project
-
-If you add Swift files, update `SOURCE_FILES` in `gen_xcodeproj.py` then run:
-
-```bash
-python3 gen_xcodeproj.py
-```
